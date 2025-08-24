@@ -50,6 +50,7 @@ const FileUploadInput = ({
 
         <Button
           text={buttonText}
+          bgClass="primary-bg-light"
           type="button"
           onClick={() => document.getElementById(inputId).click()}
         />

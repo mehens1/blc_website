@@ -49,3 +49,7 @@
   background: transparent !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+  .primary-text-light {
+    color: var(--color-primary-light);
+  }
