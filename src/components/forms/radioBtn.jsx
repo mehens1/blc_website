@@ -5,7 +5,7 @@ const RadioInput = ({ label, name, options, selectedValue, onChange, required = 
     <div className="mb-4">
       {label && (
         <p className="font-medium mb-2">
-          {label} {!required && <>(Optional)</>}
+          {label} {!required && <span className='text-gray-400'>(Optional)</span>}
         </p>
       )}
 
